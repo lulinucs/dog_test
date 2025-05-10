@@ -41,3 +41,18 @@ python src/game.py
 4. Use o campo de texto para enviar mensagens para o outro jogador
 
 ## Estrutura do Projeto 
+
+dog-test/
+├── config/
+│ └── game.id # ID do jogo já configurado
+├── src/
+│ ├── dog/ # Framework DOG
+│ └── game.py # Jogo de teste
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+## Notas
+
+- O arquivo `game.id` já está configurado e não precisa ser gerado novamente
+- Para testar o jogo, abra duas instâncias do programa e jogue entre elas
