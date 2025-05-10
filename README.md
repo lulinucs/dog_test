@@ -29,11 +29,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Gere o ID do jogo:
-```bash
-python config/generate_game_id.py
-```
-
 ## Como Jogar
 
 1. Execute o jogo:
